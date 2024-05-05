@@ -44,7 +44,7 @@ sections:
       username: admin
   - block: skills
     content:
-      title: Skills
+      title: Навыки
       text: ''
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
@@ -52,7 +52,7 @@ sections:
       columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: Опыт 
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -62,33 +62,38 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Бизнес-аналитик
+          company: 1С
+          company_url: 'https://1c.ru/'
+          company_logo: White_logo
+          location: Москва
+          date_start: '2026-09-25'
+          date_end: '2027-05-15'
           description: |2-
-              Responsibilities include:
+              Полученные навыки:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Аналитика 
+              * Моделирование бизнес-процессов в 1С
+              * Работа в команде 
+        - title: Специалист по кибербезопасности
+          company: Gazprombank
+          company_url: 'https://www.gazprombank.ru/'
+          company_logo: gazprombank
+          location: Москва
+          date_start: '2028-06-24'
+          date_end: '2029-05-13'
+          description: |2-
+              Обязанности:
+
+              * Создавать и поддерживать системы защиты серверов
+              * Обнаруживать и предотвращать уязвимости
+              * Обеспечить конфиденциальность, целостность данных компании
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Достижения'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -98,32 +103,32 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://stepik.org/course/63085/info
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-11-12'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: python
+          organization: Stepik
+          organization_url: https://stepik.org
+          title: Indi-course programming on Python
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://stepik.org/course/73/info
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_start: '2024-03-15'
+          description: Курс знакомит слушателей с операционной системой Linux и основами её использования.
+          icon: linux
+          organization: Stepik. Bioinformatics institute 
+          organization_url: https://stepik.org/org/bioinf
+          title: Введение в Linux
+          url: https://stepik.org/course/73/info
+        - certificate_url: https://stepik.org/course/497/promo
+          date_end: '2024-04-22'
+          date_start: '2023-07-01'
           description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          icon: r-project
+          organization: Bioinformatics institute
+          organization_url: https://stepik.org/course/497/promo
+          title: ' Programming on R'
           url: ''
     design:
       columns: '2'
