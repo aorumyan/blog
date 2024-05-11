@@ -13,13 +13,13 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Hugo Blox Builder
+# Этапы реализации индивидуального проекта 
 
-[Hugo Blox Builder](https://hugoblox.com/) | [Documentation](https://docs.hugoblox.com/content/slides/)
+[Hugo Blox Builder](https://hugoblox.com/) | [Github](https://github.com/aorumyancev)
 
 ---
 
-## Features
+## Размещение на Github pages заготовки для персонального сайта.
 
 - Efficiently write slides in Markdown
 - 3-in-1: Create, Present, and Publish your slides
@@ -162,8 +162,4 @@ Create `assets/css/reveal_custom.css` with:
 
 ---
 
-# Questions?
 
-[Ask](https://discord.gg/z8wNYzb)
-
-[Documentation](https://docs.hugoblox.com/content/slides/)

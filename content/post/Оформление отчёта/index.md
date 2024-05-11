@@ -9,10 +9,10 @@ summary: Сейчас я расскажу как легко оформить о�
 projects: []
 
 # Date published
-date: '2020-04-26T00:00:00Z'
+date: '2024-04-26T00:00:00Z'
 
 # Date updated
-lastmod: '2023-04-27T00:00:00Z'
+lastmod: '2024-04-27T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
